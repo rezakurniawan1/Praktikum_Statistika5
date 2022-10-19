@@ -1,0 +1,16 @@
+#Latihan 1
+reza=read.delim("clipboard")
+View(reza)
+str(reza)
+
+mean(reza$Volume)
+t.test(reza$Volume, mu = 10)
+
+
+#Latihan 2
+reza=read.delim("clipboard")
+View(reza)
+str(reza)
+
+mean(reza$Pendapatan)
+t.test(reza$Pendapatan, mu = 14500)
